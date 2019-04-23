@@ -54,7 +54,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy job
     pool: Default
-    environment: 'shasb.openshiftproject'
+    environment: 'dsmsjavaSampleApp.default'
     strategy:
       runOnce:
         deploy:
