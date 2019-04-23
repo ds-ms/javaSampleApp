@@ -18,7 +18,7 @@ variables:
   tag: '$(Build.BuildId)'
   
   # Kubernetes Namespace
-  k8sNamespace: 'openshiftproject'
+  k8sNamespace: 'default'
   imagePullSecret: 'desattiraksacr-auth'
 
   # Agent VM image name
